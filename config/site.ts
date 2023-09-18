@@ -1,12 +1,12 @@
 import type { SiteConfig } from "@/types"
 
 export const siteConfig: SiteConfig = {
-  name: "cNFT Tools",
+  name: "Arvrtise cNFT",
   description: "A collection of no-code tools that allow you to interact with Compressed NFTs.",
-  url: "https://cnft-tools.vercel.app/",
-  ogImage: "https://cnft-tools.vercel.app/assets/og.png",
+  url: "https://cnft.arvrtise.com",
+  ogImage: "https://cnft.arvrtise.com/assets/og.png",
   links: {
-    twitter: "https://twitter.com/trankhac_vy",
-    github: "https://github.com/trankhacvy/cnft-tools",
+    twitter: "https://twitter.com/arvrtise",
+    linkedin: "https://www.linkedin.com/showcase/89771536/",
   },
 }
