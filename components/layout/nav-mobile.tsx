@@ -1,4 +1,4 @@
-import { LinkedinIcon, TwitterIcon } from "lucide-react"
+import { GithubIcon, TwitterIcon } from "lucide-react"
 import { useRouter } from "next/router"
 import { siteConfig } from "@/config/site"
 import { IconButton } from "../ui/icon-button"
@@ -36,11 +36,11 @@ export const NavigationMobile = ({ trigger }: { trigger: React.ReactNode }) => {
               <IconButton
                 color="primary"
                 as="a"
-                href={siteConfig.links.linkedin}
+                href={siteConfig.links.github}
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <LinkedinIcon />
+                <GithubIcon />
               </IconButton>
               <IconButton
                 color="primary"
@@ -51,7 +51,7 @@ export const NavigationMobile = ({ trigger }: { trigger: React.ReactNode }) => {
               >
                 <TwitterIcon />
               </IconButton>
-              <IconButton color="primary" as="a" href="https://arvrtise.com/" target="_blank" rel="noopener noreferrer">
+              <IconButton color="primary" as="a" href="https://arvrtise.com" target="_blank" rel="noopener noreferrer">
                 <img className="h-6 w-auto object-contain" src="/assets/shyft-logo.svg" />
               </IconButton>
             </div>

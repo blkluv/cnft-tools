@@ -1,4 +1,4 @@
-import { FlameIcon, LinkedinIcon, ImageIcon, ImagePlusIcon, TreePineIcon, TruckIcon, TwitterIcon } from "lucide-react"
+import { FlameIcon, GithubIcon, ImageIcon, ImagePlusIcon, TreePineIcon, TruckIcon, TwitterIcon } from "lucide-react"
 import Link from "next/link"
 import { useRouter } from "next/router"
 import { Typography } from "@/components/ui/typography"
@@ -61,8 +61,8 @@ export const Navigation = () => {
         </div>
         <div className="flex-1 flex flex-col justify-end items-center">
           <div className="flex items-center gap-4 p-6">
-            <IconButton color="primary" as="a" href={siteConfig.links.linkedin} target="_blank" rel="noopener noreferrer">
-              <LinkedinIcon />
+            <IconButton color="primary" as="a" href={siteConfig.links.github} target="_blank" rel="noopener noreferrer">
+              <GithubIcon />
             </IconButton>
             <IconButton
               color="primary"
@@ -73,7 +73,7 @@ export const Navigation = () => {
             >
               <TwitterIcon />
             </IconButton>
-            <IconButton color="primary" as="a" href="https://shyft.to/" target="_blank" rel="noopener noreferrer">
+            <IconButton color="primary" as="a" href="https://cnft.arvrtise.com/" target="_blank" rel="noopener noreferrer">
               <img className="h-6 w-auto object-contain" src="/assets/shyft-logo.svg" />
             </IconButton>
           </div>
