@@ -5,7 +5,7 @@ export type SiteConfig = {
   ogImage: string
   links: {
     twitter: string
-    linkedin: string
+    github: string
   }
 }
 
